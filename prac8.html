@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Marwadi University</title>
+<!-- Bootstrap CSS -->
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+<!-- Custom CSS -->
+<style>
+body {
+font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+line-height: 1.6;
+background-color: #f4f6f9;
+}
+/* Navbar */
+.navbar {
+background: linear-gradient(to right, #4facfe, #00f2fe);
+}
+/* Hero Section */
+.hero {
+background: url('https://picsum.photos/1200/400') no-repeat center/cover;
+color: white;
+text-align: center;
+padding: 80px 20px;
+}
+.hero h1 {
+font-size: 48px;
+font-weight: bold;
+}
+.section-title {
+font-weight: bold;
+color: #4facfe;
+margin-bottom: 20px;
+border-left: 5px solid #4facfe;
+padding-left: 10px;
+}
+/* Cards for Courses */
+.card {
+border-radius: 12px;
+box-shadow: 0 6px 15px rgba(0,0,0,0.1);
+transition: transform 0.3s, box-shadow 0.3s;
+}
+.card:hover {
+transform: translateY(-5px);
+box-shadow: 0 12px 25px rgba(0,0,0,0.2);
+}
+/* Gallery Images */
+.gallery-img {
+border-radius: 10px;
+transition: transform 0.3s;
+}
+.gallery-img:hover {
+transform: scale(1.05);
+}
+/* Top Recruiters */
+.recruiter-img {
+max-width: 150px;
+transition: transform 0.3s;
+}
+.recruiter-img:hover {
+transform: scale(1.1);
+}
+footer {
+background: #4facfe;
+color: white;
+padding: 15px 0;
+}
+</style>
+</head>
+<body>
+<!-- Navbar -->
+<nav class="navbar navbar-expand-lg navbar-dark">
+<div class="container">
+<a class="navbar-brand" href="#">Marwadi University</a>
+<button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+<span class="navbar-toggler-icon"></span>
+</button>
+<div class="collapse navbar-collapse" id="navbarNav">
+<ul class="navbar-nav ms-auto">
+<li class="nav-item"><a class="nav-link" href="#vision">Vision</a></li>
+<li class="nav-item"><a class="nav-link" href="#mission">Mission</a></li>
+<li class="nav-item"><a class="nav-link" href="#psos">PSOs</a></li>
+<li class="nav-item"><a class="nav-link" href="#courses">Courses</a></li>
+<li class="nav-item"><a class="nav-link" href="#gallery">Gallery</a></li>
+<li class="nav-item"><a class="nav-link" href="#recruiters">Top Recruiters</a></li>
+</ul>
+</div>
+</div>
+</nav>
+<!-- Hero -->
+<div class="hero">
+<h1>Welcome to Marwadi University</h1>
+<p class="lead">Excellence in Education, Innovation, and Research</p>
+</div>
+<!-- Vision -->
+<section id="vision" class="container my-5">
+<h2 class="section-title">Vision</h2>
+<p>To emerge as a globally recognized university with excellence in education, research, and innovation, fostering
+holistic development of students.</p>
+</section>
+<!-- Mission -->
+<section id="mission" class="container my-5">
+<h2 class="section-title">Mission</h2>
+<ul>
+<li>Provide quality education to empower students.</li>
+<li>Encourage innovation, creativity, and research.</li>
+<li>Promote ethical and sustainable practices in all activities.</li>
+<li>Develop students to become responsible global citizens.</li>
+</ul>
+</section>
+<!-- PSOs -->
+<section id="psos" class="container my-5">
+<h2 class="section-title">Program Specific Outcomes</h2>
+<ul>
+<li>Graduates will be able to analyze and solve real-world problems effectively.</li>
+<li>Graduates will be proficient in technical and professional skills.</li>
+<li>Graduates will demonstrate leadership, teamwork, and ethical responsibility.</li>
+<li>Graduates will engage in lifelong learning and continuous improvement.</li>
+</ul>
+</section>
+<!-- Courses -->
+<section id="courses" class="container my-5">
+<h2 class="section-title">Courses Offered</h2>
+<div class="row row-cols-1 row-cols-md-3 g-4">
+<div class="col"><div class="card p-3 text-center"><h5>B.Tech Computer Science</h5></div></div>
+<div class="col"><div class="card p-3 text-center"><h5>B.Tech Mechanical</h5></div></div>
+<div class="col"><div class="card p-3 text-center"><h5>B.Tech Civil</h5></div></div>
+<div class="col"><div class="card p-3 text-center"><h5>MBA</h5></div></div>
+<div class="col"><div class="card p-3 text-center"><h5>MCA</h5></div></div>
+<div class="col"><div class="card p-3 text-center"><h5>BBA</h5></div></div>
+</div>
+</section>
+<!-- Gallery -->
+<section id="gallery" class="container my-5">
+<h2 class="section-title">Event Gallery</h2>
+<div class="row row-cols-1 row-cols-md-3 g-4">
+<div class="col"><img src="c:\Users\BHARADWAJ\Downloads\mu im1.webp" class="img-fluid gallery-img" alt="Event
+1"></div>
+<div class="col"><img src="c:\Users\BHARADWAJ\Downloads\mu imp2.webp" class="img-fluid gallery-img"
+alt="Event 2"></div>
+<div class="col"><img src="c:\Users\BHARADWAJ\Downloads\mu imp3.webp" class="img-fluid gallery-img"
+alt="Event 3"></div>
+</section>
+<!-- Top Recruiters -->
+<section id="recruiters" class="container my-5 text-center">
+<h2 class="section-title">Top Recruiters</h2>
+<div class="row row-cols-2 row-cols-md-4 g-3 justify-content-center">
+<div class="col"><img src="https://via.placeholder.com/150?text=TCS" class="img-fluid recruiter-img"
+alt="TCS"></div>
+<div class="col"><img src="https://via.placeholder.com/150?text=Infosys" class="img-fluid recruiter-img"
+alt="Infosys"></div>
+<div class="col"><img src="https://via.placeholder.com/150?text=Wipro" class="img-fluid recruiter-img"
+alt="Wipro"></div>
+<div class="col"><img src="https://via.placeholder.com/150?text=Accenture" class="img-fluid recruiter-img"
+alt="Accenture"></div>
+</div>
+</section>
+<!-- Footer -->
+<footer class="mt-5">
+<p class="text-center m-0">© 2026 Marwadi University | All Rights Reserved</p>
+</footer>
+</body>
+</html>
